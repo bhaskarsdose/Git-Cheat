@@ -48,3 +48,10 @@ Commands for changing branch on local machine like in Ardupilot:-
 * For locking the branch(press tab for getting the exact value of X)
 
   "git checkout Copter-4.0.X"
+  
+* For setting user name and password globally/default in a PC(mac/windows/linux)
+  
+  "git config --global user.email "you@exampl.com"
+  "git config --global user.name "Your Name"
+  
+  if don't want to setup the default remove --global part or locally in repo
